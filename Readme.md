@@ -27,4 +27,11 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 13 insertions(+)
  create mode 100644 Readme.md
 ```
+这里可以选择配置或者不配置
 7. git push
+第一次push的时候会要登录github，然后就可以顺利成功的push了。后续有文件更新的话就只要三步就ok.
+```
+git add --all
+git commit -m "message content"
+git push
+```
