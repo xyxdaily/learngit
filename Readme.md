@@ -113,3 +113,8 @@ git push --set-upstream origin new_main
 先切换到主分支，然后再merge，再推送
 使用命令`git merge origin/new_main`
 然后推送`git push origin master`
+
+
+### 将远程的代码同步到本地
+git pull
+
