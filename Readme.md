@@ -97,3 +97,17 @@ Deleted branch for_delete (was 3f17be6).
 
 ### 分支小例子
 这里我们选择new_main，然后把新的Readme.md同步到该分支
+要推送分支的话，需要使用`git push --set-upstream origin new_main`,当然可以先git push看看报错与提示
+```
+fatal: The current branch new_main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+    git push --set-upstream origin new_main
+```
+```
+git add -all
+git commit -m "update new_main Readme.md"
+git push --set-upstream origin new_main
+```
+
+### 合并分支到main
+使用命令`git merge origin/new_main`
